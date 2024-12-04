@@ -1,0 +1,69 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #ff3333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+main {
+    padding: 20px;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #222;
+    color: white;
+    margin-top: 20px;
+}
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #ffe4e1;
+}
+
+/* Общий стиль для кнопок */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Стили для кнопок соцсетей */
+.vk {
+    background-color: #4680C2;
+}
+.vk:hover {
+    background-color: #395b99;
+}
+
+.telegram {
+    background-color: #0088cc;
+}
+.telegram:hover {
+    background-color: #006699;
+}
+
+/* Стили для кнопок оплаты */
+.payment {
+    background-color: #4CAF50;
+}
+.payment:hover {
+    background-color: #3E8E41;
+}
